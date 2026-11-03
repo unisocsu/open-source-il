@@ -1,0 +1,13 @@
+name = "open-source-il-api"
+main = "src/index.js"
+compatibility_date = "2026-10-15"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "open-source-il-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "../database/migrations"
+
+[vars]
+ALLOWED_ORIGINS = "http://localhost:8788,https://YOUR-PAGES-DOMAIN.pages.dev"
